@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <donate />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Donate from './components/donate.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Donate
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+body{
+  margin: 20px;
+  background: #fafbff;
+  font-family: 'Poppins', sans-serif;
+  *{
+    box-sizing: border-box;
+  }
+  sup{
+    line-height: 1;
+  }
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 </style>
