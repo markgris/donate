@@ -41,11 +41,11 @@ export default {
       content: "";
       width: 0; 
       height: 0; 
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
-      border-top: 12px solid #e4ebfd;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      border-top: 14px solid #e4ebfd;
       position: absolute;
-      bottom: -10px;
+      bottom: -13px;
       right: 30px;
     }
   }

@@ -66,7 +66,7 @@ export default {
     flex-direction: column;
     font-family: 'IBM Plex Sans', sans-serif;
     width: 100%;
-    max-width: 440px;
+    max-width: 420px;
     background: #ffffff;
     color: $black;
     margin-bottom: 10vh;
